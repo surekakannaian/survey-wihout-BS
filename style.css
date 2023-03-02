@@ -1,0 +1,65 @@
+*{
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --start-:#353c66;
+    --end-:#1b1f34;
+    --btn-end:#44c334;
+    --btn-start:#74da30;
+    --blue-end:#6b7d9d;
+    --blue-start:#92a3c2;
+    --shadow:#bebfc6;
+    --bg-color: #f8f9fa;
+    --download:#ea2d2b;
+    --write:#ce16a1;
+    --trash:#344767;
+}
+.navbar{
+    background: linear-gradient(to right ,var(--start-),var(--end-));
+}
+.navbar-brand{
+    font-weight: 600;
+}
+.buttons a{
+    background: linear-gradient(to right,var(--btn-start),var(--btn-end));
+    margin: 2px;
+    font-size: 13px;
+}
+.form{
+    background-color: var(
+        --bg-color
+    );
+}
+.poly-table{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: -1px 3px 10px gray;
+}
+.badge{
+    background: linear-gradient(to right,var(--blue-start),var(--blue-end));
+}
+.fa-eye{
+    color: var(--btn-end);
+}
+.fa-pen-to-square{
+    color: var(--write);
+}
+.fa-download {
+    color: var(--download);
+}
+.fa-trash{
+    color: var(--trash);
+}
+.poly-table h5{
+font-weight: 600;
+color: #414c67;
+}
+th{
+    color: #b2bbcb;
+}
+tr:nth-child(1),tr:nth-child(2),tr:nth-child(3),tr:nth-child(4),tr:nth-child(5){
+    color: #424e67;
+}
